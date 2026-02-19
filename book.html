@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is a simple page where you can search book from google">
+  <meta name="author" content="Md Nahid Hasan Rabbi">
+<link rel="stylesheet" href="book.css">
+
+ 
+  <title>Document</title>
+  
+</head>
+<body>
+  <div class="box">
+    <header>
+      <div class="top">
+        <h1>Lab 5 - Javascript</h1>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="menu">
+      
+          <div class="flexbox">
+            <button class="start">
+              <a href="./index.html">Start</a>
+            </button>
+          </div>
+        
+        
+          <div  class="flexbox">
+            <button class="chess "><a href="./banner.html">Banner</a></button>
+          </div>
+          <div class="flexbox">
+            <button class="formula "><a href="./book.html">Book</a></button>
+        
+          </div>
+          
+          <div  class="flexbox"> 
+            <button class="column "><a href="./bmi.html">BMI</a></button>
+          </div>
+         
+          <div class="flexbox" >
+            <button class="author "><a href="./author.html">Author</a></button>
+          </div>
+        </div>  
+      </section>
+
+      <section>
+        
+        <div class="container">
+          <div class="form-group">
+            <label for="title">Title:</label>
+            <input type="text" class="js-title" name="title" placeholder="Enter the Title">
+            <button type="button" class="search-button" onclick="bookSearch();">Search</button><br>
+      
+          </div> 
+          <div class="js-result result"></div>
+         
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      <div class="foot">
+        <p class="pad">Autor: RS 2020</p>
+      </div>
+    </footer>
+    
+  </div>
+  <script src="book.js"></script>
+        
+ 
+</body>
+</html>
