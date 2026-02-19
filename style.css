@@ -1,0 +1,100 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+  
+  
+  background-color:rgb(161, 228, 255);
+  padding:5px;
+  
+ }
+ .top{
+  background-color:rgb(200, 235, 52);
+  padding: 8px;
+  margin:5px;
+  text-align: center;
+ }
+ .menu{
+  display:flex;
+  flex-wrap: wrap;
+  background-color: rgb(238, 10, 10);
+  padding:10px;
+  padding-left: 40px;
+  margin: 5px;
+  gap: 8px;
+ }
+ button{
+  margin-left: 10px;
+ }
+ 
+
+ .start,.chess,.formula,.column,.author{
+    
+  background-color:rgb(161, 228, 255);
+  border: none;
+  padding: 20px 30px 20px 30px;
+  cursor: pointer;
+  font-size:20px;
+ 
+  font-weight: bold;
+  font-family: Arial;
+ }
+
+ 
+ a:link,a:visited{
+  text-decoration: none;
+  color: red;
+  
+  
+ }
+ 
+
+ .start:hover,.chess:hover,.formula:hover,.column:hover,.author:hover{
+  background-color: rgb(232, 232, 11);
+ }
+ 
+ 
+
+  
+ 
+   
+    
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: azure;
+    border-width: 1px;
+    padding: 8px;
+  }
+  .clock{
+    display: flex;
+    flex: 1;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color:rgb(188, 188, 188); 
+    color: green;
+    font-size: 75px;
+    border:1px solid black;
+  }
+
+  .pad{
+    margin:0;
+  }
+
+  .foot{
+    background-color:rgb(200, 235, 52);
+    padding: 8px;
+    text-align: center;
+    margin-top: 5px;
+    
+  }
+
+  
+  
+  
+  

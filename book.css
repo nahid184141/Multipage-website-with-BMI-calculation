@@ -1,0 +1,90 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+  
+  
+  background-color:rgb(161, 228, 255);
+  padding:5px;
+  
+ }
+ .top{
+  background-color:rgb(200, 235, 52);
+  padding: 8px;
+  margin:5px;
+  text-align: center;
+ }
+ .menu{
+  display:flex;
+  flex-wrap: wrap;
+  background-color: rgb(238, 10, 10);
+  padding:10px;
+  padding-left: 40px;
+  margin: 5px;
+  gap: 8px;
+ }
+ button{
+  margin-left: 10px;
+ }
+ 
+
+ .start,.chess,.formula,.column,.author{
+    
+  background-color:rgb(161, 228, 255);
+  border: none;
+  padding: 20px 30px 20px 30px;
+  cursor: pointer;
+  font-size:20px;
+ 
+  font-weight: bold;
+  font-family: Arial;
+ }
+ a:link,a:visited{
+  text-decoration: none;
+  color: red;
+ }
+ 
+
+ .start:hover,.chess:hover,.formula:hover,.column:hover,.author:hover{
+  background-color: rgb(232, 232, 11);
+ }
+ .formula{
+  background-color:rgb(25,213,132) ;
+ }
+
+  .pad{
+    margin:0;
+  }
+
+  .foot{
+    background-color:rgb(200, 235, 52);
+    padding: 8px;
+    text-align: center;
+    margin-top: 5px;
+    
+  }
+
+  .container {
+      text-align: center;
+      margin: 20px;
+      
+  }
+  .form-group {
+      margin: 20px;
+  }
+  .result {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 10px auto;
+      width: 80%;
+     
+      background-color: #818181;
+  }
+  .cover {
+      max-width: 150px;
+  }
+  .alert {
+      color: red;
+      font-weight: bold;
+  }  
+     

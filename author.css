@@ -1,0 +1,49 @@
+.content{
+      
+  height: 100vh;
+  background-color: azure;
+  border-width: 1px;
+  padding: 8px;
+  display:none;
+}
+.author{
+  background-color:rgb(25,213,132) ;
+}
+.image{
+  display: block;
+
+  width: 300px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.Author{
+  text-align: center;
+  line-height: 30px;
+  font-weight:600;
+
+}
+.loc{
+  text-align: center;
+  margin: 0;
+  font-size: 12px;
+}
+.show-key{
+  display:flex;
+  justify-content: center;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom:10px ;
+ 
+ 
+}
+.show-key-button{
+  background-color: gray;
+  border: none;
+  padding:10px 10px 10px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
