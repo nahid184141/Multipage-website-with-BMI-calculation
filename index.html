@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is a simple front page what demonstrating a menu and updateClock">
+  <meta name="author" content="Md Nahid Hasan Rabbi">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="box">
+    <header>
+      <div class="top">
+        <h1>Lab 5 - Javascript</h1>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="menu">
+      
+          <div class="flexbox">
+            <button style="  background-color:rgb(25,213,132) ;"
+              class="start js-clock" onclick="
+              updateClock();
+              ">
+              <a href="./index.html">Start</a>
+            </button>
+          </div>
+        
+        
+          <div  class="flexbox">
+            <button class="chess "><a href="./Banner.html">Banner</a></button>
+          </div>
+          <div class="flexbox">
+            <button class="formula "><a href="./book.html">Book</a></button>
+        
+          </div>
+          
+          <div  class="flexbox"> 
+            <button class="column "><a href="./bmi.html">BMI</a></button>
+          </div>
+         
+          <div class="flexbox" >
+            <button class="author "><a href="./author.html">Author</a></button>
+          </div>
+        </div>  
+      </section>
+
+      <section>
+        
+        <div class="container">
+          <div class="clock">00:00:00</div>
+         
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      <div class="foot">
+        <p class="pad">Autor: RS 2020</p>
+      </div>
+    </footer>
+    
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
